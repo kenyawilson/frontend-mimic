@@ -1,0 +1,160 @@
+h1 {
+    color: white;
+    font: 65px bold sans-serif;
+    margin-left: 35px;
+    padding-top: 200px;
+    display: inline-block; 
+}
+
+#horizontalLine {
+    color: white;
+    font-weight: bold; 
+    margin-left: 35px;
+    padding-bottom: 200px;
+}
+
+#navbar {
+    width: 94%;
+}
+
+#navbar a {
+    float: right;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    text-align: center;
+    display: block;
+    padding: 30px 10px;
+    text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+#navbar a:active {
+    border-bottom: 5px solid orange; 
+}
+
+#navbar a:hover {
+    border-bottom: 5px solid orange; 
+    opacity: 0.5;
+}
+
+.navlink {
+    margin-right: 20px;
+}
+
+#topsection {
+    background: url("https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg") no-repeat center center fixed; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-left: 60px;
+}
+
+img.slideshow-sponsors {
+    padding: 3px;
+}
+
+.slideshow-sponsors {
+    background-image: linear-gradient(to right, #317A8C,#B74D3A);
+    width: 100%;
+    height: 125px; 
+    overflow-y: scroll; 
+}
+
+#heading-2{
+    text-align: center; 
+    font-size: 30px; 
+    font-family: Georgia; 
+    padding: 50px;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 5px 20px; 
+    margin-left: 40px; 
+    text-align: center;
+    font-size: 30px; 
+    font-family: Georgia; 
+ }
+
+ #section2background {
+    background-color: #f4eae9;
+ }
+
+ .customerReview {
+     display: inline-block; 
+     padding: 30px 0; 
+     font-size: 23px; 
+     font-family: Arial;
+     margin: 35px 0;
+ }
+
+ .customerName {
+     font-size: 14px;
+ }
+
+h6 {
+    color: white;
+    font-size: 15px;
+    padding: 40px;
+}
+
+#callToAction {
+    font-size: 40px;
+    color: white;
+    padding: 10px 40px 70px 40px;
+    margin-bottom: 0;
+    font-family: Cardo, Georgia;
+}
+
+#contact-section {
+    background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#contact-section a {
+    color: #EC92A5;
+}
+
+p a:hover {
+    color: #EC92A5;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #252526;
+}
+
+#contact-info {
+    color: white;
+    font-size: 14px;
+    font-family: Helvectica;
+    text-align: left;
+    display: inline-block;
+    padding: 100px;
+}
+
+#copyright, #copyright a {
+    color: #94B9DA;
+    font-size: 12px;
+}
+
+#copyright a:hover {
+color: orange;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 50px;
+  }
