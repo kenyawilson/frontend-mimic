@@ -35,11 +35,11 @@ h1 {
   }
 
 #navbar a:active {
-    border-bottom: 5px solid orange; 
+    border-bottom: 5px solid #FF8C00; 
 }
 
 #navbar a:hover {
-    border-bottom: 5px solid orange; 
+    border-bottom: 5px solid #FF8C00; 
     opacity: 0.5;
 }
 
@@ -88,15 +88,17 @@ img.slideshow-sponsors {
  }
 
  .customerReview {
-     display: inline-block; 
      padding: 30px 0; 
      font-size: 23px; 
      font-family: Arial;
-     margin: 35px 0;
  }
 
- .customerName {
+ .customerName, .customerTitle {
      font-size: 14px;
+ }
+
+ #reviewSection {
+     padding: 70px;
  }
 
 h6 {
@@ -152,9 +154,3 @@ footer {
 color: orange;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    padding-top: 50px;
-  }
